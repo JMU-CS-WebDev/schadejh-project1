@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen"/>
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+        <title>deadmau5 | &#62; album title goes here &#60;</title>
+		<link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg"/>
+        <style>
+            h2 {
+              color: #686766;
+              font-size: 24px;
+              font-weight: 700;
+              text-align: center;
+            }
+          
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .column {
+              float: left;
+              width: 50%;
+              padding: 0 10px;
+            }
+            
+            .row {
+              margin: 0 -5px;
+              margin-bottom: 10px;
+            }
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+          
+            .spacer {
+              height: 50px;
+            }
+            
+            @media screen and (max-width: 1200px) {
+              .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+              }
+          
+              h1 {
+                font-size: 22px;
+              }
+          
+              h2 {
+                font-size: 16px;
+              }
+              
+              .spacer {
+                height:100px;
+              }
+            }
+            
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+              padding: 16px;
+              text-align: center;
+              background-color: #f1f1f1;
+            }
+          </style>
+    </head>
+    <header>
+        <div class="navbar">
+            <h3>deadmau5 top albums</h3>
+            <a class="active" href="index.html">Home</a>
+            <a href="atgh.html">&#62; album title goes here &#60;</a>
+            <a href="4x4_12.html">4 x 4 &#61; 12</a>
+            <a href="rat.html">Random Album Title</a>
+            <a href="w_1lt2.html">while &#40;1&#60;2&#41;</a>
+            <a href="2016album.html">W&#58;&#47;2016ALBUM&#47;</a>
+        </div>
+    </header>
+    <div class="spacer"></div>
+    <h1>&#62; album title goes here &#60;</h1>
+    <div style="display:flex; justify-content:center;" class="row">
+        <div class="column">
+            <div class="card">
+                <h2>
+                    &#62; album title goes here &#60;
+                </h2>
+                <h4>
+                    by deadmau5
+                </h4>
+                <p>
+					<img src='https://upload.wikimedia.org/wikipedia/en/d/db/Deadmau5_Album_Title_Goes_Here.jpg' alt="dead mouse's album title goes here album cover art">
+                </p>
+                <button onclick="window.open('https://www.youtube.com/watch?v=hKqprJwWH4M&list=PLvsYXqtYjMYdPmoYrZj1vE9qSf3RY9J0Q', '_blank'); return false;">
+                    Listen on YouTube!
+                </button>
+            </div>
+        </div>
+    </div>
+    <div style="display:flex; justify-content:center;" class="row">
+        <div class="column">
+            <div class="card">
+                <h2>
+                    Top song from this album
+                </h2>
+                <h4>
+                    The Veldt
+                </h4>
+                <p>
+                    Lyrics inspired by Ray Bradburry's short story of the same name.
+                </p>
+        <iframe src="https://www.youtube.com/embed/xvtNS6hbVy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+    </html>
